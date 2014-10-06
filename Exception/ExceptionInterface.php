@@ -9,11 +9,11 @@
 namespace Phlexible\Bundle\ElementRendererBundle\Exception;
 
 /**
- * Invalid argument exception for element renderer bundle
+ * Exception interface for element renderer bundle
  *
  * @author Stephan Wentz <sw@brainbits.net>
  */
-class InvalidArgumentException extends \InvalidArgumentException implements ExceptionInterface
+interface ExceptionInterface
 {
 
 }
